@@ -31,7 +31,7 @@ const Auto = () => {
       window.removeEventListener("mousedown", handleClickOutside);
     };
   });
-
+ //after pull
   const handleClickOutside = event => {
     const { current: wrap } = wrapperRef;
     if (wrap && !wrap.contains(event.target)) {
